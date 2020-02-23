@@ -60,6 +60,7 @@ It was modified by the following procedures:
 
 16. Wrote data to file named "Project-Dataset2.csv" with one variable per column and one observation (subject number.activity) per row (requirements of tidy data)
 
+17. Wrote data to file named "Project-Dataset3.txt" with one variable per column and one observation (subject number.activity) per row (requirements of tidy data)
 
 Please consult the accompanyng Code Book for a description of all variables included.
 

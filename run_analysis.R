@@ -36,5 +36,5 @@ data_sp <- split(data, list(data$Subject, data$Activity), drop = TRUE)
 data2 <- as.data.frame((sapply(data_sp, function(data_sp) colMeans(data_sp[, 3:81]))))
 data2_transpose <- as.data.frame(t(as.matrix(data2)))
 write.csv(data2_transpose, file = "Project-Dataset2.csv")
-
+write.table(data2_transpose, file = "Project-Dataset3.txt", row.name=FALSE)
 
